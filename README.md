@@ -1,9 +1,9 @@
-#[Click your heels to get home with these Uber ruby slippers](https://www.newscientist.com/article/mg23431273-000-do-try-this-at-home/)
+# [Click your heels to get home with these Uber ruby slippers](https://www.newscientist.com/article/mg23431273-000-do-try-this-at-home/)
 ======
-##By cobbling together some souped-up shoes, you can do a Dorothy and whizz yourself home at the end of a night on the town
-#####A project by Hannah Joshua/New Scientist
+By cobbling together some souped-up shoes, you can do a Dorothy and whizz yourself home at the end of a night on the town
+##### A project by Hannah Joshua/New Scientist
 
-##What is it?
+## What is it?
 ------
 
 This is the code I put together for a pair of shoes that call you an Uber home when you click your heels together three times within 1.5 seconds. You can find the original New Scientist article about the project [here](https://www.newscientist.com/article/mg23431273-000-do-try-this-at-home/).
@@ -12,19 +12,19 @@ This is the code I put together for a pair of shoes that call you an Uber home w
 
 This project is made with Arduino Uno. I also added a 1Sheeld – which sits on top of the Arduino and allows you to use functions from your smartphone in your sketch over bluetooth. And of course, I also used Uber’s API.
 
-##Parts list
+## Parts list
 ------
 
--Shoes. (obviously)
--Arduino
--1Sheeld
--large latching button
--battery (I used a standard 9v in a battery case with an on-off switch)
--LEDs
--wires
--smartphone with GPS and 1Sheeld app
+- Shoes. (obviously)
+- Arduino
+- 1Sheeld
+- large latching button
+- battery (I used a standard 9v in a battery case with an on-off switch)
+- LEDs
+- wires
+- smartphone with GPS and 1Sheeld app
 
-##Basics
+## Basics
 ------
 
 I aimed for a pair of shoes with a bit of a platform and a heel – this gave me room to put the Arduino in the hollowed out toe section of one shoe and hide the battery box in the heel. The latching switch is also set into the heel, and the LEDs are attached to the front of the shoe so they’re easily visible when you look down.
@@ -39,7 +39,7 @@ Essentially, the code makes http requests to Uber’s API endpoints to order a c
 
 The code isn’t particularly elegant, but it does the job and this was one of my first Arduino projects, so please excuse the clunkiness! 
 
-##Some notes
+## Some notes
 ------
 
 At the moment, this is kind of a basic version of the project; I was constrained by the amount of memory on the Arduino Uno and also by time. 
